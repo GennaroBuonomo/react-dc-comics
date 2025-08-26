@@ -8,9 +8,15 @@ body{
   font-family: "Open Sans", sans-serif;
 }
 
-header{
-  padding: 15px 0px;
+
+main{
+background-color: #000;
+color: #fff;
+padding: 40px 0px;
+font-size: 20px;
+font-weight: bold;
 }
+
 
 .container{
   max-width: 1200px;
@@ -41,7 +47,11 @@ header{
   justify-content: flex-end;
   list-style-type: none;
   height: 100%;
-  padding-top: 45px;
+  padding-top: 55px;
+}
+
+#logo-header{
+  padding: 15px;
 }
 
 #menu li{
