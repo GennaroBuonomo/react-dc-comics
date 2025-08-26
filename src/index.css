@@ -55,3 +55,11 @@ header{
   font-weight: 600;
   font-size: 16px;
 }
+
+#menu li.active{
+  border-bottom: 5px solid #0282f9;
+}
+
+#menu li.active a{
+  color: #0282f9;
+}
