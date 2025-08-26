@@ -87,3 +87,16 @@ font-weight: bold;
   display: flex;
   justify-content: space-around;
 }
+
+.icons-list img{
+  height: 75px;
+ width: 75px;
+ vertical-align: middle;
+ margin-right: 15px;
+ object-fit: contain;
+}
+
+.icons-list span{
+  vertical-align: middle;
+  color: #fff;
+}
