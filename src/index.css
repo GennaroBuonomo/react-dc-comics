@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*Coll*/
+.col-25{
+  width: 25%;
+}
+
+.col-75{
+  width: 75%;
+}
+
+/*custom*/ 
