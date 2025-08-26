@@ -45,8 +45,8 @@ font-weight: bold;
 }
 
 /*Utilities*/
-.align-items-center{
-  align-items: center;
+.padding-20{
+  padding: 20px 5px;
 }
 
 /*custom*/ 
@@ -105,16 +105,35 @@ font-weight: bold;
   color: #fff;
 }
 
+
 .middle-footer{
   height: 400px;
   background-image: url('../img/footer-bg.jpg');
 }
 
+.middle-footer h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.column ul {
+  list-style: none;
+  color:#fff; 
+}
+.column ul li {
+ font-size: 14px;
+ cursor: pointer;
+}
+
+
 .background-dc{
   height: 400px;
-  width: 100%;
+  width: 80%;
   background-image: url('../img/dc-logo-bg.png');
-  position: static;
+  position: absolute;
   background-position: right;
   background-repeat: no-repeat;
 }
