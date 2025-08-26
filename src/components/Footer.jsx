@@ -82,7 +82,25 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bottom-footer"></div>
+      <div className="bottom-footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-50">
+              <button>SING-UP NOW!</button>
+            </div>
+            <div className="col-50 display-flex">
+              <span className="follow-us">FOLLOW US</span>
+              <div className="social-icons">
+              <img src="./img/footer-facebook.png" alt="" />
+              <img src="./img/footer-twitter.png" alt="" />
+              <img src="./img/footer-youtube.png" alt="" />
+              <img src="./img/footer-pinterest.png" alt="" />
+              <img src="./img/footer-periscope.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </footer>;
   
 }
