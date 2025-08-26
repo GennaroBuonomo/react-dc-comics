@@ -32,6 +32,10 @@ font-weight: bold;
   width: 25%;
 }
 
+.col-50{
+  width: 50%;
+}
+
 .col-100{
   width: 100%;
 }
@@ -89,7 +93,7 @@ font-weight: bold;
 }
 
 .icons-list img{
-  height: 75px;
+ height: 75px;
  width: 75px;
  vertical-align: middle;
  margin-right: 15px;
@@ -99,4 +103,18 @@ font-weight: bold;
 .icons-list span{
   vertical-align: middle;
   color: #fff;
+}
+
+.middle-footer{
+  height: 400px;
+  background-image: url('../img/footer-bg.jpg');
+}
+
+.background-dc{
+  height: 400px;
+  width: 100%;
+  background-image: url('../img/dc-logo-bg.png');
+  position: static;
+  background-position: right;
+  background-repeat: no-repeat;
 }
