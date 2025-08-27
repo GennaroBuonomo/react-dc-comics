@@ -1,61 +1,61 @@
 const Header = () => {
   const menu = [
     {
-      id: "1",
+      id: 1,
       label: "Characters",
       active: false,
       href:"#"
     },
      {
-      id: "1",
+      id: 2,
       label: "Comics",
       active: false,
       href:"#"
     },
      {
-      id: "2",
+      id: 3,
       label: "Movies",
       active: true,
       href:"#"
     },
      {
-      id: "3",
+      id: 4,
       label: "TV",
       active: false,
       href:"#"
     },
      {
-      id: "4",
+      id: 5,
       label: "Games",
       active: false,
       href:"#"
     },
      {
-      id: "5",
+      id: 6,
       label: "collectibles",
       active: false,
       href:"#"
     },
      {
-      id: "6",
+      id: 7,
       label: "Videos",
       active: false,
       href:"#"
     },
      {
-      id: "7",
+      id: 8,
       label: "Fans",
       active: false,
       href:"#"
     },
      {
-      id: "8",
+      id: 9,
       label: "News",
       active: false,
       href:"#"
     },
      {
-      id: "9",
+      id: 10,
       label: "Shop",
       active: false,
       href:"#"
@@ -72,36 +72,14 @@ const Header = () => {
         </div>
         <div className="col-75">
           <ul id="menu">
-            <li>
-              <a href="#">Characters</a>
-            </li>
-            <li className="active">
-              <a href="#">Comics</a>
-            </li>
-            <li>
-              <a href="#">Movies</a>
-            </li>
-            <li>
-              <a href="#">TV</a>
-            </li>
-            <li>
-              <a href="#">Games</a>
-            </li>
-            <li>
-              <a href="#">Collectibles</a>
-            </li>
-            <li>
-              <a href="#">Videos</a>
-            </li>
-            <li>
-              <a href="#">Fans</a>
-            </li>
-            <li>
-              <a href="#">News</a>
-            </li>
-            <li>
-              <a href="#">Shop</a>
-            </li>
+            { menu.map(link => {
+              const { id, href, label, active } = link;
+              return (
+                <li key={id} className={active ? 'active' : ''}>
+                 <a href={href}>{label}</a>
+                </li>                 
+              )
+            })}
           </ul>
         </div>
       </div>
