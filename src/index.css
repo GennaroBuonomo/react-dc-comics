@@ -186,3 +186,12 @@ button{
   height: 200px;
   object-fit: cover;
 }
+
+.btn-blue{
+  padding: 10px 51px;
+  margin-left: 40%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #0282f9;
+}

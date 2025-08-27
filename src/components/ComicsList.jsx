@@ -161,12 +161,12 @@ const ComicsList = () => {
         <div className="comic-card">
           <img src={comic.thumb} 
           alt={comic.title} />
-          <h3>{comic.title}</h3>
+          <h5>{comic.title}</h5>
         </div>
       </div>
         )
       })}
-    
+      <button className="btn-blue">Load More</button>    
     </div>
   </div>
 }
