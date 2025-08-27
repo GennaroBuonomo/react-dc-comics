@@ -1,6 +1,67 @@
-import React from 'react'
-
 const Header = () => {
+  const menu = [
+    {
+      id: "1",
+      label: "Characters",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "1",
+      label: "Comics",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "2",
+      label: "Movies",
+      active: true,
+      href:"#"
+    },
+     {
+      id: "3",
+      label: "TV",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "4",
+      label: "Games",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "5",
+      label: "collectibles",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "6",
+      label: "Videos",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "7",
+      label: "Fans",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "8",
+      label: "News",
+      active: false,
+      href:"#"
+    },
+     {
+      id: "9",
+      label: "Shop",
+      active: false,
+      href:"#"
+    },
+
+  ]
   return <header>
     <div className="container">
       <div className="row">
