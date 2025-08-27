@@ -4,7 +4,7 @@ const Main = () => {
   return <main>
     <div className="container">
       <div className="row">
-        <div className="col-100">--&gt; <ComicsList /> &lt;-- </div>
+        <div className="col-100"><ComicsList /></div>
       </div>
     </div>
   </main>;
