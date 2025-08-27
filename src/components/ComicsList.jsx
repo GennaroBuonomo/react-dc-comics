@@ -153,7 +153,15 @@ const ComicsList = () => {
     writers: ["Joëlle Jones"],
   },
 ];
-  return<div></div>
+  return <div className="Container">
+    <div className="row">
+      <div className="col-16">
+        <div className="comic-card">
+          
+        </div>
+      </div>
+    </div>
+  </div>
 }
 
 export default ComicsList

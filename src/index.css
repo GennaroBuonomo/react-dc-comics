@@ -40,6 +40,10 @@ font-weight: bold;
   width: 100%;
 }
 
+.col-16{
+  width: calc(100% / 6);
+}
+
 .col-75{
   width: 75%;
 }
